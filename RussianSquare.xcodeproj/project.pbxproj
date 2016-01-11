@@ -1,0 +1,908 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF06F8861C0C8CD000E16DEA /* 关闭.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF06F8851C0C8CD000E16DEA /* 关闭.jpg */; };
+		DF06F9FE1C0ECA3400E16DEA /* combo.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06F9FD1C0ECA3400E16DEA /* combo.png */; };
+		DF06FA031C0ECFD100E16DEA /* X1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06F9FF1C0ECFD100E16DEA /* X1.png */; };
+		DF06FA041C0ECFD100E16DEA /* X2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA001C0ECFD100E16DEA /* X2.png */; };
+		DF06FA051C0ECFD100E16DEA /* x3.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA011C0ECFD100E16DEA /* x3.png */; };
+		DF06FA061C0ECFD100E16DEA /* x4.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA021C0ECFD100E16DEA /* x4.png */; };
+		DF06FA171C0EED9D00E16DEA /* x5.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA071C0EED9D00E16DEA /* x5.png */; };
+		DF06FA181C0EED9D00E16DEA /* x6.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA081C0EED9D00E16DEA /* x6.png */; };
+		DF06FA191C0EED9D00E16DEA /* x7.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA091C0EED9D00E16DEA /* x7.png */; };
+		DF06FA1A1C0EED9D00E16DEA /* x8.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA0A1C0EED9D00E16DEA /* x8.png */; };
+		DF06FA1B1C0EED9D00E16DEA /* x9.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA0B1C0EED9D00E16DEA /* x9.png */; };
+		DF06FA1C1C0EED9D00E16DEA /* x10.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA0C1C0EED9D00E16DEA /* x10.png */; };
+		DF06FA1D1C0EED9D00E16DEA /* x11.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA0D1C0EED9D00E16DEA /* x11.png */; };
+		DF06FA1E1C0EED9D00E16DEA /* x12.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA0E1C0EED9D00E16DEA /* x12.png */; };
+		DF06FA1F1C0EED9D00E16DEA /* x13.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA0F1C0EED9D00E16DEA /* x13.png */; };
+		DF06FA201C0EED9D00E16DEA /* x14.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA101C0EED9D00E16DEA /* x14.png */; };
+		DF06FA211C0EED9D00E16DEA /* x15.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA111C0EED9D00E16DEA /* x15.png */; };
+		DF06FA221C0EED9D00E16DEA /* x16.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA121C0EED9D00E16DEA /* x16.png */; };
+		DF06FA231C0EED9D00E16DEA /* x17.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA131C0EED9D00E16DEA /* x17.png */; };
+		DF06FA241C0EED9D00E16DEA /* x18.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA141C0EED9D00E16DEA /* x18.png */; };
+		DF06FA251C0EED9D00E16DEA /* x19.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA151C0EED9D00E16DEA /* x19.png */; };
+		DF06FA261C0EED9D00E16DEA /* x20.png in Resources */ = {isa = PBXBuildFile; fileRef = DF06FA161C0EED9D00E16DEA /* x20.png */; };
+		DF93CDA11C0A07180071D4A9 /* FC精选合集-俄罗斯方块音乐集.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF93CD9F1C0A07180071D4A9 /* FC精选合集-俄罗斯方块音乐集.mp3 */; };
+		DF93CDA21C0A07180071D4A9 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DF93CDA01C0A07180071D4A9 /* hit.mp3 */; };
+		DFD2F9041C09CE00007C0101 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD2F9031C09CE00007C0101 /* AudioToolbox.framework */; };
+		DFD2F90F1C09D20C007C0101 /* 俄罗斯方块-失败.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFD2F90B1C09D20C007C0101 /* 俄罗斯方块-失败.mp3 */; };
+		DFD2F9101C09D20C007C0101 /* 俄罗斯方块-消行.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DFD2F90C1C09D20C007C0101 /* 俄罗斯方块-消行.mp3 */; };
+		DFD2F9131C09D428007C0101 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD2F9121C09D428007C0101 /* AVFoundation.framework */; };
+		DFF503DE1C0343140087F713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF503DD1C0343140087F713 /* main.m */; };
+		DFF503E11C0343140087F713 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF503E01C0343140087F713 /* AppDelegate.m */; };
+		DFF503E41C0343140087F713 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF503E31C0343140087F713 /* ViewController.m */; };
+		DFF503E71C0343140087F713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF503E51C0343140087F713 /* Main.storyboard */; };
+		DFF503E91C0343140087F713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF503E81C0343140087F713 /* Assets.xcassets */; };
+		DFF503EC1C0343140087F713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF503EA1C0343140087F713 /* LaunchScreen.storyboard */; };
+		DFF503F71C0343140087F713 /* RussianSquareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF503F61C0343140087F713 /* RussianSquareTests.m */; };
+		DFF504021C0343140087F713 /* RussianSquareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF504011C0343140087F713 /* RussianSquareUITests.m */; };
+		DFF5041E1C0344330087F713 /* IType.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF504111C0344330087F713 /* IType.m */; };
+		DFF5041F1C0344330087F713 /* JType.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF504131C0344330087F713 /* JType.m */; };
+		DFF504201C0344330087F713 /* LType.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF504151C0344330087F713 /* LType.m */; };
+		DFF504211C0344330087F713 /* OType.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF504171C0344330087F713 /* OType.m */; };
+		DFF504221C0344330087F713 /* SType.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF504191C0344330087F713 /* SType.m */; };
+		DFF504231C0344330087F713 /* TType.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF5041B1C0344330087F713 /* TType.m */; };
+		DFF504241C0344330087F713 /* ZType.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF5041D1C0344330087F713 /* ZType.m */; };
+		DFF5042D1C0344540087F713 /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF504261C0344540087F713 /* Block.m */; };
+		DFF5042E1C0344540087F713 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF504281C0344540087F713 /* Board.m */; };
+		DFF5050A1C0461A20087F713 /* BlueBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF505051C0461A20087F713 /* BlueBlock.png */; };
+		DFF5050B1C0461A20087F713 /* GrayBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF505061C0461A20087F713 /* GrayBlock.png */; };
+		DFF5050C1C0461A20087F713 /* GreenBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF505071C0461A20087F713 /* GreenBlock.png */; };
+		DFF5050D1C0461A20087F713 /* RedBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF505081C0461A20087F713 /* RedBlock.png */; };
+		DFF5050E1C0461A20087F713 /* YellowBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF505091C0461A20087F713 /* YellowBlock.png */; };
+		DFF505571C05BDEE0087F713 /* BackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF505561C05BDEE0087F713 /* BackGround.png */; };
+		DFF75D8F1C16B928009AC4B7 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF75D8E1C16B928009AC4B7 /* icon.png */; };
+		DFFC4B321C086398000632FD /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B171C086398000632FD /* UMSocialLocalizable.strings */; };
+		DFFC4B331C086398000632FD /* libUMSocial_Sdk_4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B251C086398000632FD /* libUMSocial_Sdk_4.3.a */; };
+		DFFC4B341C086398000632FD /* libUMSocial_Sdk_Comment_4.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B261C086398000632FD /* libUMSocial_Sdk_Comment_4.3.a */; };
+		DFFC4B351C086398000632FD /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B281C086398000632FD /* UMSCommentDetailController.xib */; };
+		DFFC4B361C086398000632FD /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B291C086398000632FD /* UMSCommentInputController.xib */; };
+		DFFC4B371C086398000632FD /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B2A1C086398000632FD /* UMSCommentInputControlleriPad.xib */; };
+		DFFC4B381C086398000632FD /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B2B1C086398000632FD /* UMShareEditViewController.xib */; };
+		DFFC4B391C086398000632FD /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B2C1C086398000632FD /* UMShareEditViewControlleriPad.xib */; };
+		DFFC4B3A1C086398000632FD /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B2D1C086398000632FD /* UMSLoginViewController.xib */; };
+		DFFC4B3B1C086398000632FD /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B2E1C086398000632FD /* UMSnsAccountViewController.xib */; };
+		DFFC4B3C1C086398000632FD /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B2F1C086398000632FD /* UMSShareListController.xib */; };
+		DFFC4B3D1C086398000632FD /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DFFC4B301C086398000632FD /* UMSocialSDKResourcesNew.bundle */; };
+		DFFC4B3F1C086422000632FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B3E1C086422000632FD /* SystemConfiguration.framework */; };
+		DFFC4B411C086554000632FD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B401C086554000632FD /* Security.framework */; };
+		DFFC4B431C086588000632FD /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B421C086588000632FD /* libiconv.2.tbd */; };
+		DFFC4B451C086595000632FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B441C086595000632FD /* CoreGraphics.framework */; };
+		DFFC4B471C0865AB000632FD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B461C0865AB000632FD /* libsqlite3.tbd */; };
+		DFFC4B491C0865B7000632FD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B481C0865B7000632FD /* CoreTelephony.framework */; };
+		DFFC4B4B1C0865C3000632FD /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B4A1C0865C3000632FD /* libstdc++.tbd */; };
+		DFFC4B4D1C0865D1000632FD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFC4B4C1C0865D0000632FD /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFF503F31C0343140087F713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF503D11C0343140087F713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF503D81C0343140087F713;
+			remoteInfo = RussianSquare;
+		};
+		DFF503FE1C0343140087F713 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF503D11C0343140087F713 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF503D81C0343140087F713;
+			remoteInfo = RussianSquare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF06F8851C0C8CD000E16DEA /* 关闭.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "关闭.jpg"; sourceTree = "<group>"; };
+		DF06F9FD1C0ECA3400E16DEA /* combo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = combo.png; sourceTree = "<group>"; };
+		DF06F9FF1C0ECFD100E16DEA /* X1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X1.png; sourceTree = "<group>"; };
+		DF06FA001C0ECFD100E16DEA /* X2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X2.png; sourceTree = "<group>"; };
+		DF06FA011C0ECFD100E16DEA /* x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x3.png; sourceTree = "<group>"; };
+		DF06FA021C0ECFD100E16DEA /* x4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x4.png; sourceTree = "<group>"; };
+		DF06FA071C0EED9D00E16DEA /* x5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x5.png; sourceTree = "<group>"; };
+		DF06FA081C0EED9D00E16DEA /* x6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x6.png; sourceTree = "<group>"; };
+		DF06FA091C0EED9D00E16DEA /* x7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x7.png; sourceTree = "<group>"; };
+		DF06FA0A1C0EED9D00E16DEA /* x8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x8.png; sourceTree = "<group>"; };
+		DF06FA0B1C0EED9D00E16DEA /* x9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x9.png; sourceTree = "<group>"; };
+		DF06FA0C1C0EED9D00E16DEA /* x10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x10.png; sourceTree = "<group>"; };
+		DF06FA0D1C0EED9D00E16DEA /* x11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x11.png; sourceTree = "<group>"; };
+		DF06FA0E1C0EED9D00E16DEA /* x12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x12.png; sourceTree = "<group>"; };
+		DF06FA0F1C0EED9D00E16DEA /* x13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x13.png; sourceTree = "<group>"; };
+		DF06FA101C0EED9D00E16DEA /* x14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x14.png; sourceTree = "<group>"; };
+		DF06FA111C0EED9D00E16DEA /* x15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x15.png; sourceTree = "<group>"; };
+		DF06FA121C0EED9D00E16DEA /* x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x16.png; sourceTree = "<group>"; };
+		DF06FA131C0EED9D00E16DEA /* x17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x17.png; sourceTree = "<group>"; };
+		DF06FA141C0EED9D00E16DEA /* x18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x18.png; sourceTree = "<group>"; };
+		DF06FA151C0EED9D00E16DEA /* x19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x19.png; sourceTree = "<group>"; };
+		DF06FA161C0EED9D00E16DEA /* x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x20.png; sourceTree = "<group>"; };
+		DF93CD9F1C0A07180071D4A9 /* FC精选合集-俄罗斯方块音乐集.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "FC精选合集-俄罗斯方块音乐集.mp3"; path = "../../../../Downloads/FC精选合集-俄罗斯方块音乐集.mp3"; sourceTree = "<group>"; };
+		DF93CDA01C0A07180071D4A9 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = hit.mp3; path = ../../../../Downloads/hit.mp3; sourceTree = "<group>"; };
+		DFD2F9031C09CE00007C0101 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DFD2F90B1C09D20C007C0101 /* 俄罗斯方块-失败.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "俄罗斯方块-失败.mp3"; sourceTree = "<group>"; };
+		DFD2F90C1C09D20C007C0101 /* 俄罗斯方块-消行.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "俄罗斯方块-消行.mp3"; sourceTree = "<group>"; };
+		DFD2F9121C09D428007C0101 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DFF503D91C0343140087F713 /* RussianSquare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RussianSquare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF503DD1C0343140087F713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFF503DF1C0343140087F713 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DFF503E01C0343140087F713 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DFF503E21C0343140087F713 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DFF503E31C0343140087F713 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DFF503E61C0343140087F713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFF503E81C0343140087F713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFF503EB1C0343140087F713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFF503ED1C0343140087F713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF503F21C0343140087F713 /* RussianSquareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianSquareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF503F61C0343140087F713 /* RussianSquareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RussianSquareTests.m; sourceTree = "<group>"; };
+		DFF503F81C0343140087F713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF503FD1C0343140087F713 /* RussianSquareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RussianSquareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF504011C0343140087F713 /* RussianSquareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RussianSquareUITests.m; sourceTree = "<group>"; };
+		DFF504031C0343140087F713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFF504101C0344330087F713 /* IType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IType.h; sourceTree = "<group>"; };
+		DFF504111C0344330087F713 /* IType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IType.m; sourceTree = "<group>"; };
+		DFF504121C0344330087F713 /* JType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JType.h; sourceTree = "<group>"; };
+		DFF504131C0344330087F713 /* JType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JType.m; sourceTree = "<group>"; };
+		DFF504141C0344330087F713 /* LType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LType.h; sourceTree = "<group>"; };
+		DFF504151C0344330087F713 /* LType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LType.m; sourceTree = "<group>"; };
+		DFF504161C0344330087F713 /* OType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OType.h; sourceTree = "<group>"; };
+		DFF504171C0344330087F713 /* OType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OType.m; sourceTree = "<group>"; };
+		DFF504181C0344330087F713 /* SType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SType.h; sourceTree = "<group>"; };
+		DFF504191C0344330087F713 /* SType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SType.m; sourceTree = "<group>"; };
+		DFF5041A1C0344330087F713 /* TType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TType.h; sourceTree = "<group>"; };
+		DFF5041B1C0344330087F713 /* TType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TType.m; sourceTree = "<group>"; };
+		DFF5041C1C0344330087F713 /* ZType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZType.h; sourceTree = "<group>"; };
+		DFF5041D1C0344330087F713 /* ZType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZType.m; sourceTree = "<group>"; };
+		DFF504251C0344540087F713 /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		DFF504261C0344540087F713 /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		DFF504271C0344540087F713 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		DFF504281C0344540087F713 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		DFF505051C0461A20087F713 /* BlueBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueBlock.png; sourceTree = "<group>"; };
+		DFF505061C0461A20087F713 /* GrayBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GrayBlock.png; sourceTree = "<group>"; };
+		DFF505071C0461A20087F713 /* GreenBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenBlock.png; sourceTree = "<group>"; };
+		DFF505081C0461A20087F713 /* RedBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedBlock.png; sourceTree = "<group>"; };
+		DFF505091C0461A20087F713 /* YellowBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowBlock.png; sourceTree = "<group>"; };
+		DFF505561C05BDEE0087F713 /* BackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackGround.png; sourceTree = "<group>"; };
+		DFF75D8E1C16B928009AC4B7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		DFFC4B181C086398000632FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		DFFC4B1A1C086398000632FD /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		DFFC4B1B1C086398000632FD /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		DFFC4B1C1C086398000632FD /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		DFFC4B1D1C086398000632FD /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		DFFC4B1E1C086398000632FD /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		DFFC4B1F1C086398000632FD /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		DFFC4B201C086398000632FD /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		DFFC4B211C086398000632FD /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		DFFC4B221C086398000632FD /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		DFFC4B231C086398000632FD /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		DFFC4B241C086398000632FD /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		DFFC4B251C086398000632FD /* libUMSocial_Sdk_4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.3.a; sourceTree = "<group>"; };
+		DFFC4B261C086398000632FD /* libUMSocial_Sdk_Comment_4.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_Comment_4.3.a; sourceTree = "<group>"; };
+		DFFC4B281C086398000632FD /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		DFFC4B291C086398000632FD /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		DFFC4B2A1C086398000632FD /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		DFFC4B2B1C086398000632FD /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		DFFC4B2C1C086398000632FD /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		DFFC4B2D1C086398000632FD /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		DFFC4B2E1C086398000632FD /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		DFFC4B2F1C086398000632FD /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		DFFC4B301C086398000632FD /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		DFFC4B311C086398000632FD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		DFFC4B3E1C086422000632FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DFFC4B401C086554000632FD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DFFC4B421C086588000632FD /* libiconv.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = usr/lib/libiconv.2.tbd; sourceTree = SDKROOT; };
+		DFFC4B441C086595000632FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFFC4B461C0865AB000632FD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DFFC4B481C0865B7000632FD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DFFC4B4A1C0865C3000632FD /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DFFC4B4C1C0865D0000632FD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF503D61C0343140087F713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD2F9131C09D428007C0101 /* AVFoundation.framework in Frameworks */,
+				DFD2F9041C09CE00007C0101 /* AudioToolbox.framework in Frameworks */,
+				DFFC4B4D1C0865D1000632FD /* libz.tbd in Frameworks */,
+				DFFC4B4B1C0865C3000632FD /* libstdc++.tbd in Frameworks */,
+				DFFC4B491C0865B7000632FD /* CoreTelephony.framework in Frameworks */,
+				DFFC4B471C0865AB000632FD /* libsqlite3.tbd in Frameworks */,
+				DFFC4B451C086595000632FD /* CoreGraphics.framework in Frameworks */,
+				DFFC4B431C086588000632FD /* libiconv.2.tbd in Frameworks */,
+				DFFC4B411C086554000632FD /* Security.framework in Frameworks */,
+				DFFC4B3F1C086422000632FD /* SystemConfiguration.framework in Frameworks */,
+				DFFC4B331C086398000632FD /* libUMSocial_Sdk_4.3.a in Frameworks */,
+				DFFC4B341C086398000632FD /* libUMSocial_Sdk_Comment_4.3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF503EF1C0343140087F713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF503FA1C0343140087F713 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFD2F9051C09D197007C0101 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				DF93CD9F1C0A07180071D4A9 /* FC精选合集-俄罗斯方块音乐集.mp3 */,
+				DF93CDA01C0A07180071D4A9 /* hit.mp3 */,
+				DFD2F90B1C09D20C007C0101 /* 俄罗斯方块-失败.mp3 */,
+				DFD2F90C1C09D20C007C0101 /* 俄罗斯方块-消行.mp3 */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		DFF503D01C0343140087F713 = {
+			isa = PBXGroup;
+			children = (
+				DFF75D8E1C16B928009AC4B7 /* icon.png */,
+				DFD2F9051C09D197007C0101 /* Audio */,
+				DFFC4B4E1C08660A000632FD /* Frameworks */,
+				DFF503DB1C0343140087F713 /* RussianSquare */,
+				DFF503F51C0343140087F713 /* RussianSquareTests */,
+				DFF504001C0343140087F713 /* RussianSquareUITests */,
+				DFF503DA1C0343140087F713 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF503DA1C0343140087F713 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF503D91C0343140087F713 /* RussianSquare.app */,
+				DFF503F21C0343140087F713 /* RussianSquareTests.xctest */,
+				DFF503FD1C0343140087F713 /* RussianSquareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF503DB1C0343140087F713 /* RussianSquare */ = {
+			isa = PBXGroup;
+			children = (
+				DFFC4B161C086398000632FD /* UMSocial_Sdk_4.3 */,
+				DFF505041C04618D0087F713 /* Images */,
+				DFF5040F1C0344120087F713 /* Blocks */,
+				DFF504251C0344540087F713 /* Block.h */,
+				DFF504261C0344540087F713 /* Block.m */,
+				DFF504271C0344540087F713 /* Board.h */,
+				DFF504281C0344540087F713 /* Board.m */,
+				DFF503DF1C0343140087F713 /* AppDelegate.h */,
+				DFF503E01C0343140087F713 /* AppDelegate.m */,
+				DFF503E21C0343140087F713 /* ViewController.h */,
+				DFF503E31C0343140087F713 /* ViewController.m */,
+				DFF503E51C0343140087F713 /* Main.storyboard */,
+				DFF503E81C0343140087F713 /* Assets.xcassets */,
+				DFF503EA1C0343140087F713 /* LaunchScreen.storyboard */,
+				DFF503ED1C0343140087F713 /* Info.plist */,
+				DFF503DC1C0343140087F713 /* Supporting Files */,
+			);
+			path = RussianSquare;
+			sourceTree = "<group>";
+		};
+		DFF503DC1C0343140087F713 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF503DD1C0343140087F713 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFF503F51C0343140087F713 /* RussianSquareTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF503F61C0343140087F713 /* RussianSquareTests.m */,
+				DFF503F81C0343140087F713 /* Info.plist */,
+			);
+			path = RussianSquareTests;
+			sourceTree = "<group>";
+		};
+		DFF504001C0343140087F713 /* RussianSquareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF504011C0343140087F713 /* RussianSquareUITests.m */,
+				DFF504031C0343140087F713 /* Info.plist */,
+			);
+			path = RussianSquareUITests;
+			sourceTree = "<group>";
+		};
+		DFF5040F1C0344120087F713 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF504101C0344330087F713 /* IType.h */,
+				DFF504111C0344330087F713 /* IType.m */,
+				DFF504121C0344330087F713 /* JType.h */,
+				DFF504131C0344330087F713 /* JType.m */,
+				DFF504141C0344330087F713 /* LType.h */,
+				DFF504151C0344330087F713 /* LType.m */,
+				DFF504161C0344330087F713 /* OType.h */,
+				DFF504171C0344330087F713 /* OType.m */,
+				DFF504181C0344330087F713 /* SType.h */,
+				DFF504191C0344330087F713 /* SType.m */,
+				DFF5041A1C0344330087F713 /* TType.h */,
+				DFF5041B1C0344330087F713 /* TType.m */,
+				DFF5041C1C0344330087F713 /* ZType.h */,
+				DFF5041D1C0344330087F713 /* ZType.m */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		DFF505041C04618D0087F713 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DF06F9FF1C0ECFD100E16DEA /* X1.png */,
+				DF06FA001C0ECFD100E16DEA /* X2.png */,
+				DF06FA011C0ECFD100E16DEA /* x3.png */,
+				DF06FA021C0ECFD100E16DEA /* x4.png */,
+				DF06FA071C0EED9D00E16DEA /* x5.png */,
+				DF06FA081C0EED9D00E16DEA /* x6.png */,
+				DF06FA091C0EED9D00E16DEA /* x7.png */,
+				DF06FA0A1C0EED9D00E16DEA /* x8.png */,
+				DF06FA0B1C0EED9D00E16DEA /* x9.png */,
+				DF06FA0C1C0EED9D00E16DEA /* x10.png */,
+				DF06FA0D1C0EED9D00E16DEA /* x11.png */,
+				DF06FA0E1C0EED9D00E16DEA /* x12.png */,
+				DF06FA0F1C0EED9D00E16DEA /* x13.png */,
+				DF06FA101C0EED9D00E16DEA /* x14.png */,
+				DF06FA111C0EED9D00E16DEA /* x15.png */,
+				DF06FA121C0EED9D00E16DEA /* x16.png */,
+				DF06FA131C0EED9D00E16DEA /* x17.png */,
+				DF06FA141C0EED9D00E16DEA /* x18.png */,
+				DF06FA151C0EED9D00E16DEA /* x19.png */,
+				DF06FA161C0EED9D00E16DEA /* x20.png */,
+				DF06F9FD1C0ECA3400E16DEA /* combo.png */,
+				DF06F8851C0C8CD000E16DEA /* 关闭.jpg */,
+				DFF505561C05BDEE0087F713 /* BackGround.png */,
+				DFF505051C0461A20087F713 /* BlueBlock.png */,
+				DFF505061C0461A20087F713 /* GrayBlock.png */,
+				DFF505071C0461A20087F713 /* GreenBlock.png */,
+				DFF505081C0461A20087F713 /* RedBlock.png */,
+				DFF505091C0461A20087F713 /* YellowBlock.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DFFC4B161C086398000632FD /* UMSocial_Sdk_4.3 */ = {
+			isa = PBXGroup;
+			children = (
+				DFFC4B171C086398000632FD /* UMSocialLocalizable.strings */,
+				DFFC4B191C086398000632FD /* Header */,
+				DFFC4B251C086398000632FD /* libUMSocial_Sdk_4.3.a */,
+				DFFC4B261C086398000632FD /* libUMSocial_Sdk_Comment_4.3.a */,
+				DFFC4B271C086398000632FD /* SocialSDKXib */,
+				DFFC4B301C086398000632FD /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_4.3;
+			sourceTree = "<group>";
+		};
+		DFFC4B191C086398000632FD /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				DFFC4B1A1C086398000632FD /* UMSocial.h */,
+				DFFC4B1B1C086398000632FD /* UMSocialAccountManager.h */,
+				DFFC4B1C1C086398000632FD /* UMSocialBar.h */,
+				DFFC4B1D1C086398000632FD /* UMSocialConfig.h */,
+				DFFC4B1E1C086398000632FD /* UMSocialControllerService.h */,
+				DFFC4B1F1C086398000632FD /* UMSocialControllerServiceComment.h */,
+				DFFC4B201C086398000632FD /* UMSocialData.h */,
+				DFFC4B211C086398000632FD /* UMSocialDataService.h */,
+				DFFC4B221C086398000632FD /* UMSocialSnsData.h */,
+				DFFC4B231C086398000632FD /* UMSocialSnsPlatformManager.h */,
+				DFFC4B241C086398000632FD /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		DFFC4B271C086398000632FD /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				DFFC4B281C086398000632FD /* UMSCommentDetailController.xib */,
+				DFFC4B291C086398000632FD /* UMSCommentInputController.xib */,
+				DFFC4B2A1C086398000632FD /* UMSCommentInputControlleriPad.xib */,
+				DFFC4B2B1C086398000632FD /* UMShareEditViewController.xib */,
+				DFFC4B2C1C086398000632FD /* UMShareEditViewControlleriPad.xib */,
+				DFFC4B2D1C086398000632FD /* UMSLoginViewController.xib */,
+				DFFC4B2E1C086398000632FD /* UMSnsAccountViewController.xib */,
+				DFFC4B2F1C086398000632FD /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
+			sourceTree = "<group>";
+		};
+		DFFC4B4E1C08660A000632FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2F9121C09D428007C0101 /* AVFoundation.framework */,
+				DFD2F9031C09CE00007C0101 /* AudioToolbox.framework */,
+				DFFC4B4C1C0865D0000632FD /* libz.tbd */,
+				DFFC4B4A1C0865C3000632FD /* libstdc++.tbd */,
+				DFFC4B481C0865B7000632FD /* CoreTelephony.framework */,
+				DFFC4B461C0865AB000632FD /* libsqlite3.tbd */,
+				DFFC4B441C086595000632FD /* CoreGraphics.framework */,
+				DFFC4B421C086588000632FD /* libiconv.2.tbd */,
+				DFFC4B401C086554000632FD /* Security.framework */,
+				DFFC4B3E1C086422000632FD /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF503D81C0343140087F713 /* RussianSquare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF504061C0343140087F713 /* Build configuration list for PBXNativeTarget "RussianSquare" */;
+			buildPhases = (
+				DFF503D51C0343140087F713 /* Sources */,
+				DFF503D61C0343140087F713 /* Frameworks */,
+				DFF503D71C0343140087F713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RussianSquare;
+			productName = RussianSquare;
+			productReference = DFF503D91C0343140087F713 /* RussianSquare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFF503F11C0343140087F713 /* RussianSquareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF504091C0343140087F713 /* Build configuration list for PBXNativeTarget "RussianSquareTests" */;
+			buildPhases = (
+				DFF503EE1C0343140087F713 /* Sources */,
+				DFF503EF1C0343140087F713 /* Frameworks */,
+				DFF503F01C0343140087F713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF503F41C0343140087F713 /* PBXTargetDependency */,
+			);
+			name = RussianSquareTests;
+			productName = RussianSquareTests;
+			productReference = DFF503F21C0343140087F713 /* RussianSquareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFF503FC1C0343140087F713 /* RussianSquareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF5040C1C0343140087F713 /* Build configuration list for PBXNativeTarget "RussianSquareUITests" */;
+			buildPhases = (
+				DFF503F91C0343140087F713 /* Sources */,
+				DFF503FA1C0343140087F713 /* Frameworks */,
+				DFF503FB1C0343140087F713 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF503FF1C0343140087F713 /* PBXTargetDependency */,
+			);
+			name = RussianSquareUITests;
+			productName = RussianSquareUITests;
+			productReference = DFF503FD1C0343140087F713 /* RussianSquareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF503D11C0343140087F713 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "蒋尚秀";
+				TargetAttributes = {
+					DFF503D81C0343140087F713 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = VL5M8Y48B3;
+					};
+					DFF503F11C0343140087F713 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = VL5M8Y48B3;
+						TestTargetID = DFF503D81C0343140087F713;
+					};
+					DFF503FC1C0343140087F713 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = VL5M8Y48B3;
+						TestTargetID = DFF503D81C0343140087F713;
+					};
+				};
+			};
+			buildConfigurationList = DFF503D41C0343140087F713 /* Build configuration list for PBXProject "RussianSquare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = DFF503D01C0343140087F713;
+			productRefGroup = DFF503DA1C0343140087F713 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF503D81C0343140087F713 /* RussianSquare */,
+				DFF503F11C0343140087F713 /* RussianSquareTests */,
+				DFF503FC1C0343140087F713 /* RussianSquareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF503D71C0343140087F713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF06FA241C0EED9D00E16DEA /* x18.png in Resources */,
+				DF06FA211C0EED9D00E16DEA /* x15.png in Resources */,
+				DF06FA031C0ECFD100E16DEA /* X1.png in Resources */,
+				DFFC4B3B1C086398000632FD /* UMSnsAccountViewController.xib in Resources */,
+				DFFC4B381C086398000632FD /* UMShareEditViewController.xib in Resources */,
+				DFF503EC1C0343140087F713 /* LaunchScreen.storyboard in Resources */,
+				DFF5050E1C0461A20087F713 /* YellowBlock.png in Resources */,
+				DF06FA1C1C0EED9D00E16DEA /* x10.png in Resources */,
+				DFFC4B321C086398000632FD /* UMSocialLocalizable.strings in Resources */,
+				DFF5050D1C0461A20087F713 /* RedBlock.png in Resources */,
+				DFFC4B391C086398000632FD /* UMShareEditViewControlleriPad.xib in Resources */,
+				DF06FA191C0EED9D00E16DEA /* x7.png in Resources */,
+				DF93CDA11C0A07180071D4A9 /* FC精选合集-俄罗斯方块音乐集.mp3 in Resources */,
+				DF06FA231C0EED9D00E16DEA /* x17.png in Resources */,
+				DF06FA181C0EED9D00E16DEA /* x6.png in Resources */,
+				DF06FA201C0EED9D00E16DEA /* x14.png in Resources */,
+				DFFC4B351C086398000632FD /* UMSCommentDetailController.xib in Resources */,
+				DFF503E91C0343140087F713 /* Assets.xcassets in Resources */,
+				DF06FA261C0EED9D00E16DEA /* x20.png in Resources */,
+				DFFC4B3A1C086398000632FD /* UMSLoginViewController.xib in Resources */,
+				DF06FA1E1C0EED9D00E16DEA /* x12.png in Resources */,
+				DF06FA051C0ECFD100E16DEA /* x3.png in Resources */,
+				DFFC4B361C086398000632FD /* UMSCommentInputController.xib in Resources */,
+				DFF505571C05BDEE0087F713 /* BackGround.png in Resources */,
+				DF06FA061C0ECFD100E16DEA /* x4.png in Resources */,
+				DFF5050B1C0461A20087F713 /* GrayBlock.png in Resources */,
+				DFF5050C1C0461A20087F713 /* GreenBlock.png in Resources */,
+				DFFC4B3D1C086398000632FD /* UMSocialSDKResourcesNew.bundle in Resources */,
+				DF06FA221C0EED9D00E16DEA /* x16.png in Resources */,
+				DF06FA251C0EED9D00E16DEA /* x19.png in Resources */,
+				DFD2F90F1C09D20C007C0101 /* 俄罗斯方块-失败.mp3 in Resources */,
+				DF06FA171C0EED9D00E16DEA /* x5.png in Resources */,
+				DF06FA1D1C0EED9D00E16DEA /* x11.png in Resources */,
+				DF06FA1F1C0EED9D00E16DEA /* x13.png in Resources */,
+				DFF503E71C0343140087F713 /* Main.storyboard in Resources */,
+				DF06F8861C0C8CD000E16DEA /* 关闭.jpg in Resources */,
+				DFF75D8F1C16B928009AC4B7 /* icon.png in Resources */,
+				DFD2F9101C09D20C007C0101 /* 俄罗斯方块-消行.mp3 in Resources */,
+				DF93CDA21C0A07180071D4A9 /* hit.mp3 in Resources */,
+				DFFC4B371C086398000632FD /* UMSCommentInputControlleriPad.xib in Resources */,
+				DFF5050A1C0461A20087F713 /* BlueBlock.png in Resources */,
+				DF06FA1A1C0EED9D00E16DEA /* x8.png in Resources */,
+				DF06FA041C0ECFD100E16DEA /* X2.png in Resources */,
+				DF06F9FE1C0ECA3400E16DEA /* combo.png in Resources */,
+				DF06FA1B1C0EED9D00E16DEA /* x9.png in Resources */,
+				DFFC4B3C1C086398000632FD /* UMSShareListController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF503F01C0343140087F713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF503FB1C0343140087F713 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF503D51C0343140087F713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF504241C0344330087F713 /* ZType.m in Sources */,
+				DFF5042D1C0344540087F713 /* Block.m in Sources */,
+				DFF504211C0344330087F713 /* OType.m in Sources */,
+				DFF504201C0344330087F713 /* LType.m in Sources */,
+				DFF503E41C0343140087F713 /* ViewController.m in Sources */,
+				DFF5041E1C0344330087F713 /* IType.m in Sources */,
+				DFF5042E1C0344540087F713 /* Board.m in Sources */,
+				DFF503E11C0343140087F713 /* AppDelegate.m in Sources */,
+				DFF503DE1C0343140087F713 /* main.m in Sources */,
+				DFF504231C0344330087F713 /* TType.m in Sources */,
+				DFF5041F1C0344330087F713 /* JType.m in Sources */,
+				DFF504221C0344330087F713 /* SType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF503EE1C0343140087F713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF503F71C0343140087F713 /* RussianSquareTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF503F91C0343140087F713 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF504021C0343140087F713 /* RussianSquareUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFF503F41C0343140087F713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF503D81C0343140087F713 /* RussianSquare */;
+			targetProxy = DFF503F31C0343140087F713 /* PBXContainerItemProxy */;
+		};
+		DFF503FF1C0343140087F713 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF503D81C0343140087F713 /* RussianSquare */;
+			targetProxy = DFF503FE1C0343140087F713 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFF503E51C0343140087F713 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF503E61C0343140087F713 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF503EA1C0343140087F713 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF503EB1C0343140087F713 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DFFC4B171C086398000632FD /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFFC4B181C086398000632FD /* en */,
+				DFFC4B311C086398000632FD /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFF504041C0343140087F713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFF504051C0343140087F713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF504071C0343140087F713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RussianSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RussianSquare/UMSocial_Sdk_4.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JiangShangXiu.RussianSquare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DFF504081C0343140087F713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = RussianSquare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RussianSquare/UMSocial_Sdk_4.3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = JiangShangXiu.RussianSquare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DFF5040A1C0343140087F713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussianSquareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JiangShangXiu.RussianSquareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianSquare.app/RussianSquare";
+			};
+			name = Debug;
+		};
+		DFF5040B1C0343140087F713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RussianSquareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JiangShangXiu.RussianSquareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RussianSquare.app/RussianSquare";
+			};
+			name = Release;
+		};
+		DFF5040D1C0343140087F713 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RussianSquareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JiangShangXiu.RussianSquareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RussianSquare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DFF5040E1C0343140087F713 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RussianSquareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JiangShangXiu.RussianSquareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RussianSquare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF503D41C0343140087F713 /* Build configuration list for PBXProject "RussianSquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF504041C0343140087F713 /* Debug */,
+				DFF504051C0343140087F713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF504061C0343140087F713 /* Build configuration list for PBXNativeTarget "RussianSquare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF504071C0343140087F713 /* Debug */,
+				DFF504081C0343140087F713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF504091C0343140087F713 /* Build configuration list for PBXNativeTarget "RussianSquareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF5040A1C0343140087F713 /* Debug */,
+				DFF5040B1C0343140087F713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF5040C1C0343140087F713 /* Build configuration list for PBXNativeTarget "RussianSquareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF5040D1C0343140087F713 /* Debug */,
+				DFF5040E1C0343140087F713 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF503D11C0343140087F713 /* Project object */;
+}
